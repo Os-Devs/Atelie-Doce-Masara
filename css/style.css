@@ -1,6 +1,14 @@
-h1 {
-    color: red;
+body {
+    margin: 0px;
 }
-p {
-    font-size: large;
+header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    min-height: 600px;
+    background-image: url(../img/bolo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
