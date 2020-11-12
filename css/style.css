@@ -6,6 +6,10 @@ nav {
     display: grid;
     justify-content: center;
     text-align: center;
+    color: black;
+    background-color: wheat;
+    height: 50px;
+    position: fixed;
 }
 
 header {
