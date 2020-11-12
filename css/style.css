@@ -3,13 +3,13 @@ body {
     font-family: 'Emilys Candy';
 }
 
-nav {
+nav .cabeçalho {
     display: grid;
     justify-content: center;
     text-align: center;
     color: black;
     background-color: wheat;
-    height: 50px;
+    margin: 0;
 }
 
 header {
