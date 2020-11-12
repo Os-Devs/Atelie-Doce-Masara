@@ -1,6 +1,13 @@
 body {
     margin: 0px;
 }
+
+nav {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
 header {
     display: grid;
     justify-content: center;
