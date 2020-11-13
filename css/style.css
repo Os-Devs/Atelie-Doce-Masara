@@ -4,11 +4,9 @@ body {
 }
 
 nav .cabeçalho {
-    display: grid;
-    justify-content: center;
     text-align: center;
     color: black;
-    background-image: linear-gradient(45deg,saddlebrown,peru);
+    background-image: linear-gradient(saddlebrown,peru);
     margin: 0;
     position: fixed;
     width: 100%;
