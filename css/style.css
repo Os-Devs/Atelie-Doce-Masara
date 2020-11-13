@@ -1,5 +1,8 @@
-body {
-  margin: 0;
+* {
+  margin: 0px;
+}
+
+body { 
   font-family: "Emilys Candy";
 }
 
@@ -10,7 +13,6 @@ nav .cabeçalho {
   text-align: center;
   color: black;
   background-image: linear-gradient(saddlebrown, peru);
-  margin: 0;
   padding: 5px;
   position: fixed;
   width: 100%;
@@ -19,6 +21,7 @@ nav .cabeçalho {
 
 .material-icons {
   font-size: 24px;
+  text-decoration: none;
 }
 
 #item-1 {
@@ -39,8 +42,10 @@ header {
 
 main .catalogo {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   text-align: center;
+  row-gap: 20px;
+  column-gap: 20px;
 }
 
 main .catalogo-descrição {
