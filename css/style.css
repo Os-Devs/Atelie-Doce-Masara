@@ -26,6 +26,17 @@ nav .cabeçalho {
     justify-self: center;
 }
 
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    text-align: center;
+}
+
+main .catalogo-descrição {
+    grid-column: 1/4;
+}
+
 header {
     display: grid;
     justify-content: center;
