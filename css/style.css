@@ -63,10 +63,15 @@ main .catalogo-descrição {
 }
 
 footer .conteudo-footer {
+  text-align: center;
   margin-top: 20px;
   display: grid;
-  justify-content: center;
+  grid-gap: 20px;
   padding: 2rem;
   background-color: lightblue;
   justify-items: center;
+}
+
+footer .social {
+  font-size: 30px;
 }
