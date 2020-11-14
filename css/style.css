@@ -2,7 +2,7 @@
   margin: 0px;
 }
 
-body { 
+body {
   font-family: "Emilys Candy";
 }
 
@@ -33,7 +33,7 @@ header {
   justify-content: center;
   align-content: center;
   text-align: center;
-  min-height: 600px;
+  min-height: 800px;
   width: 100%;
   background-image: url(../img/bolo.jpg);
   background-size: cover;
@@ -49,6 +49,12 @@ main .catalogo {
   column-gap: 20px;
 }
 
+@media all and (max-width: 425px) {
+  main .catalogo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 main .catalogo-descrição {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -56,3 +62,6 @@ main .catalogo-descrição {
   grid-column: 1/4;
 }
 
+footer .conteudo-footer {
+  background-color: lightblue;
+}
