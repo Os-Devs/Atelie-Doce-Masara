@@ -59,6 +59,11 @@ main .catalogo-descrição {
   grid-column: 1/4;
 }
 
+section .sobre-mim-conteudo {
+  display: grid;
+  padding: 2rem;
+}
+
 footer .conteudo-footer {
   text-align: center;
   margin-top: 20px;
