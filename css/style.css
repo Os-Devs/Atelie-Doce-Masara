@@ -34,6 +34,7 @@ header {
   align-content: center;
   text-align: center;
   min-height: 600px;
+  width: 100%;
   background-image: url(../img/bolo.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -42,7 +43,7 @@ header {
 
 main .catalogo {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   text-align: center;
   row-gap: 20px;
   column-gap: 20px;
