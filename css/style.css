@@ -63,5 +63,8 @@ main .catalogo-descrição {
 }
 
 footer .conteudo-footer {
+  display: grid;
+  justify-content: center;
+  padding: 2rem;
   background-color: lightblue;
 }
