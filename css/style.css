@@ -6,6 +6,8 @@ body {
   font-family: "Emilys Candy";
 }
 
+/* Barra de Navegação */
+
 nav .cabeçalho {
   display: grid;
   grid-auto-flow: column;
@@ -25,6 +27,8 @@ nav .cabeçalho {
   text-decoration: none;
 }
 
+/* Header */
+
 header {
   display: grid;
   justify-content: center;
@@ -37,6 +41,8 @@ header {
   background-attachment: fixed;
   background-position: center;
 }
+
+/* Catalogo */
 
 main .catalogo {
   display: grid;
@@ -55,6 +61,7 @@ main .catalogo {
 }
 
 @media all and (max-width: 425px) {
+
   main .catalogo {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -89,6 +96,19 @@ section .sobre-mim-imagem {
   padding: 2rem;
 }
 
+@media all and (max-width: 768px) {
+
+  .sobre-mim-imagem img {
+    display: none;
+  }
+
+  .social i {
+    font-size: 40px;
+  }
+}
+
+/* Contato */
+
 main .contato h2 {
   text-align: center;
   margin-top: 2rem;
@@ -109,6 +129,8 @@ input {
   padding: 0.5rem;
 }
 
+/* Footer */
+
 footer .conteudo-footer {
   text-align: center;
   margin-top: 20px;
@@ -126,13 +148,25 @@ div .contato {
 }
 
 .social .fa-instagram {
-  color: #517fa4;
+  color: rgba(81, 127, 164, 0.75);
 }
 
 .social .fa-facebook {
-  color: #3b5998;
+  color: rgba( 59, 89, 152, 0.75);
 }
 
 .social .fa-whatsapp {
-  color: #34af23;
+  color: rgba(52, 175, 35, 0.75);
+}
+
+.social .fa-instagram:hover {
+  color: rgba(81, 127, 164, 1);
+}
+
+.social .fa-facebook:hover {
+  color:  rgba( 59, 89, 152, 1);
+}
+
+.social .fa-whatsapp:hover {
+  color: rgba(52, 175, 35, 1);
 }
