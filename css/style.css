@@ -148,13 +148,25 @@ div .contato {
 }
 
 .social .fa-instagram {
-  color: #517fa4;
+  color: rgb(81, 127, 164);
 }
 
 .social .fa-facebook {
-  color: #3b5998;
+  color: rgb( 59, 89, 152);
 }
 
 .social .fa-whatsapp {
-  color: #34af23;
+  color: rgb(52, 175, 35);
+}
+
+.social .fa-instagram:hover {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.social .fa-facebook:hover {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.social .fa-whatsapp:hover {
+  color: rgba(0, 0, 0, 0.3);
 }
