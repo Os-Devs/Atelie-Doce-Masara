@@ -19,13 +19,10 @@ nav .cabeçalho {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-.material-icons {
-  font-size: 24px;
-  text-decoration: none;
-}
-
 #item-1 {
   justify-self: start;
+  font-size: 24px;
+  text-decoration: none;
 }
 
 header {
@@ -33,7 +30,7 @@ header {
   justify-content: center;
   align-content: center;
   text-align: center;
-  min-height: 800px;
+  min-height: 600px;
   width: 100%;
   background-image: url(../img/bolo.jpg);
   background-size: cover;
@@ -49,9 +46,25 @@ main .catalogo {
   column-gap: 20px;
 }
 
+.catalogo h3 {
+  margin-top: 15px;
+}
+
+.catalogo img {
+  width: 90%;
+}
+
 @media all and (max-width: 425px) {
   main .catalogo {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .catalogo img {
+    width: 75%;
+  }
+
+  .social i {
+    font-size: 35px;
   }
 }
 
@@ -62,9 +75,64 @@ main .catalogo-descrição {
   grid-column: 1/4;
 }
 
-footer .conteudo-footer {
+section .sobre-mim-conteudo {
+  text-align: center;
   display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 2rem;
+  background-color: khaki;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+section .sobre-mim-imagem {
+  padding: 2rem;
+}
+
+main .contato h2 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+input {
+  border-radius: 10px;
+  width: 200px;
+  padding: 0.5rem;
+}
+
+footer .conteudo-footer {
+  text-align: center;
+  margin-top: 20px;
+  display: grid;
   padding: 2rem;
   background-color: lightblue;
+}
+
+footer .social {
+  font-size: 30px;
+}
+
+div .contato {
+  margin-top: 20px;
+}
+
+.social .fa-instagram {
+  color: #517fa4;
+}
+
+.social .fa-facebook {
+  color: #3b5998;
+}
+
+.social .fa-whatsapp {
+  color: #34af23;
 }
