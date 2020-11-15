@@ -77,9 +77,20 @@ main .catalogo-descrição {
 }
 
 section .sobre-mim-conteudo {
+  text-align: center;
   display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 2rem;
+  background-color: khaki;
+  margin-top: 2rem;
+  margin-bottom: 2rem;  
+}
+
+section .sobre-mim-imagem {
   padding: 2rem;
 }
+
+
 
 footer .conteudo-footer {
   text-align: center;
