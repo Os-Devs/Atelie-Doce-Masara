@@ -90,7 +90,25 @@ section .sobre-mim-imagem {
   padding: 2rem;
 }
 
+main .contato h2 {
+  text-align: center;  
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+input {
+  border-radius: 10px;
+  width: 200px;
+  padding: .5rem;
+}
 
 footer .conteudo-footer {
   text-align: center;
