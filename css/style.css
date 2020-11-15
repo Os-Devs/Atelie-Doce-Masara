@@ -61,7 +61,6 @@ main .catalogo {
 }
 
 @media all and (max-width: 425px) {
-
   main .catalogo {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -97,7 +96,6 @@ section .sobre-mim-imagem {
 }
 
 @media all and (max-width: 768px) {
-
   .sobre-mim-imagem img {
     display: none;
   }
@@ -152,7 +150,7 @@ div .contato {
 }
 
 .social .fa-facebook {
-  color: rgba( 59, 89, 152, 0.75);
+  color: rgba(59, 89, 152, 0.75);
 }
 
 .social .fa-whatsapp {
@@ -164,7 +162,7 @@ div .contato {
 }
 
 .social .fa-facebook:hover {
-  color:  rgba( 59, 89, 152, 1);
+  color: rgba(59, 89, 152, 1);
 }
 
 .social .fa-whatsapp:hover {
