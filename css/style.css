@@ -55,6 +55,7 @@ main .catalogo {
 }
 
 @media all and (max-width: 425px) {
+
   main .catalogo {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -87,6 +88,17 @@ section .sobre-mim-conteudo {
 
 section .sobre-mim-imagem {
   padding: 2rem;
+}
+
+@media all and (max-width: 768px) {
+
+  .sobre-mim-imagem img {
+    display: none;
+  }
+
+  .social i {
+    font-size: 40px;
+  }
 }
 
 main .contato h2 {
