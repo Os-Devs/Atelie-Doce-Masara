@@ -30,7 +30,7 @@ header {
   justify-content: center;
   align-content: center;
   text-align: center;
-  min-height: 800px;
+  min-height: 600px;
   width: 100%;
   background-image: url(../img/bolo.jpg);
   background-size: cover;
@@ -46,9 +46,26 @@ main .catalogo {
   column-gap: 20px;
 }
 
+.catalogo h3 {
+  margin-top: 15px;
+}
+
+.catalogo img {
+  width: 90%;
+}
+
 @media all and (max-width: 425px) {
+
   main .catalogo {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .catalogo img {
+    width: 75%;
+  }
+
+  .social i {
+    font-size: 35px;
   }
 }
 
@@ -68,11 +85,26 @@ footer .conteudo-footer {
   text-align: center;
   margin-top: 20px;
   display: grid;
-  grid-gap: 20px;
   padding: 2rem;
   background-color: lightblue;
 }
 
 footer .social {
   font-size: 30px;
+}
+
+div .contato {
+  margin-top: 20px;
+}
+
+.social .fa-instagram {
+  color: #517fa4;
+}
+
+.social .fa-facebook {
+  color: #3b5998;
+}
+
+.social .fa-whatsapp {
+  color: #34af23;
 }
