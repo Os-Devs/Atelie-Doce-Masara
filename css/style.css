@@ -6,6 +6,8 @@ body {
   font-family: "Emilys Candy";
 }
 
+/* Barra de Navegação */
+
 nav .cabeçalho {
   display: grid;
   grid-auto-flow: column;
@@ -25,6 +27,8 @@ nav .cabeçalho {
   text-decoration: none;
 }
 
+/* Header */
+
 header {
   display: grid;
   justify-content: center;
@@ -37,6 +41,8 @@ header {
   background-attachment: fixed;
   background-position: center;
 }
+
+/* Catalogo */
 
 main .catalogo {
   display: grid;
@@ -101,6 +107,8 @@ section .sobre-mim-imagem {
   }
 }
 
+/* Contato */
+
 main .contato h2 {
   text-align: center;
   margin-top: 2rem;
@@ -120,6 +128,8 @@ input {
   width: 200px;
   padding: 0.5rem;
 }
+
+/* Footer */
 
 footer .conteudo-footer {
   text-align: center;
