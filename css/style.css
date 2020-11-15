@@ -55,7 +55,6 @@ main .catalogo {
 }
 
 @media all and (max-width: 425px) {
-
   main .catalogo {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -83,7 +82,7 @@ section .sobre-mim-conteudo {
   padding: 2rem;
   background-color: khaki;
   margin-top: 2rem;
-  margin-bottom: 2rem;  
+  margin-bottom: 2rem;
 }
 
 section .sobre-mim-imagem {
@@ -91,7 +90,7 @@ section .sobre-mim-imagem {
 }
 
 main .contato h2 {
-  text-align: center;  
+  text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -107,7 +106,7 @@ form {
 input {
   border-radius: 10px;
   width: 200px;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 footer .conteudo-footer {
