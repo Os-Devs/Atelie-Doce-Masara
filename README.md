@@ -1,5 +1,5 @@
 # Ateliê Doce Masara
-Bem vindo ao site do Ateliê Doce Masara
+Bem vindo ao site do Ateliê Doce Masara <br>
  Esse é um projeto proposto pela disciplina de Linguagens de Marcação <br>
  do Curso de Sistema de Internet da IFPB com o intuito de criar um site <br>
  utilizando a maioria dos elementos visto pelo aluno, usando apenas de sua <br>
@@ -11,7 +11,8 @@ Funcionalidades do site:
 
  – Barra de Navegação Lateral com sumário para acesso rápido. <br>
  – Secção de Catálogo para exposição das categorias de Bolos e Doces. <br>
- – Secção "Sobre mim" para evidenciar a história de Samara (Inspiração para o site) <br>.
+ – Secção "Sobre mim" para evidenciar a história de Samara (Inspiração para o 
+ site) <br>.
  – Secção de Contato com formulários. <br>
  – Secção de Social com o acesso para as redes sociais de Samara. <br>
 
