@@ -34,7 +34,7 @@ header {
   justify-content: center;
   align-content: center;
   text-align: center;
-  min-height: 600px;
+  min-height: 800px;
   width: 100%;
   background-image: url(../img/bolo.jpg);
   background-size: cover;
@@ -58,6 +58,8 @@ main .catalogo {
 
 .catalogo img {
   width: 90%;
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
 @media all and (max-width: 425px) {
@@ -71,6 +73,10 @@ main .catalogo {
 
   .social i {
     font-size: 35px;
+  }
+
+  textarea {
+    width: 165px;
   }
 }
 
@@ -91,12 +97,21 @@ section .sobre-mim-conteudo {
   margin-bottom: 2rem;
 }
 
+section .sobre-mim-conteudo p {
+  margin-top: 20px;
+}
+
+div.sobre-mim-imagem img {
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
 section .sobre-mim-imagem {
   padding: 2rem;
 }
 
 @media all and (max-width: 768px) {
-  .sobre-mim-imagem img {
+  div.sobre-mim-imagem {
     display: none;
   }
 
@@ -127,6 +142,13 @@ input {
   padding: 0.5rem;
 }
 
+textarea {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 0.5rem;
+  height: 17px;
+}
+
 form .form-nome, .form-email, .form-mensagem {
   padding: 0 6px;
   padding-bottom: 8px;
@@ -135,9 +157,9 @@ form .form-nome, .form-email, .form-mensagem {
 button {
   text-align: center;
   border-radius: 10px;
-  padding: 0.5rem;
+  padding: 3px;
   width: 38px;
-  height: 38px;
+  height: 35px;
   background-color: black;
   color: white;
   font-size: 20px; 
