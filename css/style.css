@@ -1,5 +1,6 @@
 * {
   margin: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -146,7 +147,7 @@ textarea {
   border-radius: 10px;
   border: 1px solid black;
   padding: 0.5rem;
-  height: 17px;
+  height: 35px;
 }
 
 form .form-nome, .form-email, .form-mensagem {
@@ -180,7 +181,7 @@ footer .conteudo-footer {
 }
 
 footer .social {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 div .contato {
