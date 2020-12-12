@@ -2,8 +2,8 @@
 Bem vindo ao site do Ateliê Doce Masara <br>
  Esse é um projeto proposto pela disciplina de Linguagens de Marcação <br>
  do Curso de Sistema de Internet da IFPB com o intuito de criar um site <br>
- utilizando a maioria dos elementos visto pelo aluno, usando apenas de sua <br>
- criatividade e trabalho em grupo.
+ utilizando a maioria dos elementos visto pelo aluno, usando apenas de <br>
+ sua criatividade e trabalho em grupo.
 
  Nosso grupo idealizou e criou um site de compras com delivery de doces, bolos e guloseimas diversas.
 
