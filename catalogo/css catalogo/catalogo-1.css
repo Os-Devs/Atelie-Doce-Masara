@@ -12,7 +12,6 @@
   nav .cabeçalho {
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 0%;
     text-align: center;
     color: black;
     background-image: linear-gradient(saddlebrown, peru);
@@ -25,10 +24,17 @@
   
   #item-1 {
     justify-self: start;
-    font-size: 24px;
+    font-size: 30px;
     text-decoration: none;
+    color: black;
   }
-  
+
+  #item-2 {
+    justify-self: end;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+  }
   
   /* Header */
   
