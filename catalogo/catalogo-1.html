@@ -30,16 +30,65 @@
     <main>
       <section class="catalogo-main">
         <div class="catalogo-descrição">
-          <h1>Catálogo</h1>
+          <h1>Bolos Customizados</h1>
         </div>
         <div class="imagem-principal">
           <div class="bolo1">
-            <img
-              src="./catalogo img/cat1-custom1.jpeg"
-              alt="Bolos Customizados"
-            />
-            <h3>Bolos Customizados</h3>
-            <p>Peça o seu bolo totalmente customizado</p>
+            <div id="slider">
+              <input type="radio" name="slider" id="slide1" checked />
+              <input type="radio" name="slider" id="slide2" />
+              <input type="radio" name="slider" id="slide3" />
+              <input type="radio" name="slider" id="slide4" />
+              <div id="slides">
+                <div id="overflow">
+                  <div class="inner">
+                    <div class="slide slide_1">
+                      <div class="slide-content">
+                        <img src="../img/bolo-1.jpeg" alt="Variação vermelha" />
+                      </div>
+                    </div>
+                    <div class="slide slide_2">
+                      <div class="slide-content">
+                        <img
+                          src="./catalogo img/cat1-custom1.jpeg"
+                          alt="Variação rosa"
+                        />
+                      </div>
+                    </div>
+                    <div class="slide slide_3">
+                      <div class="slide-content">
+                        <img
+                          src="./catalogo img/cat1-custom2.jpeg"
+                          alt="Variação azul"
+                        />
+                      </div>
+                    </div>
+                    <div class="slide slide_4">
+                      <div class="slide-content">
+                        <img
+                          src="./catalogo img/cat1-custom3.jpeg"
+                          alt="Variação dourada"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+              </div>
+              <div id="bullets">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+              </div>
+            </div>
+            <h3>Opções:</h3>
+            <p>Temos bolos</p>
           </div>
         </div>
         <div class="catalogo">
