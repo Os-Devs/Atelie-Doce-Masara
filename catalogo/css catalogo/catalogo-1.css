@@ -61,7 +61,7 @@ main .catalogo {
 }
 
 .imagem-principal h3 {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .imagem-principal img {
@@ -71,6 +71,9 @@ main .catalogo {
   transition: transform 1s;
 }
 
+.imagem-principal img:hover {
+  transform: scale(1.07);
+}
 .catalogo h3 {
   margin-top: 15px;
 }
@@ -109,39 +112,6 @@ main .catalogo-descrição {
   margin-bottom: 2rem;
   text-align: center;
   grid-column: 1/4;
-}
-
-section .sobre-mim-conteudo {
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  padding: 2rem;
-  background-color: khaki;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-section .sobre-mim-conteudo p {
-  margin-top: 20px;
-}
-
-div.sobre-mim-imagem img {
-  border-radius: 10px;
-  border: 1px solid black;
-}
-
-section .sobre-mim-imagem {
-  padding: 2rem;
-}
-
-@media all and (max-width: 768px) {
-  div.sobre-mim-imagem {
-    display: none;
-  }
-
-  .social i {
-    font-size: 40px;
-  }
 }
 
 /* Contato */
