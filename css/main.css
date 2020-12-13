@@ -12,7 +12,6 @@ body {
 nav .cabeçalho {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 0%;
   text-align: center;
   color: black;
   background-image: linear-gradient(saddlebrown, peru);
@@ -27,8 +26,15 @@ nav .cabeçalho {
   justify-self: start;
   font-size: 30px;
   text-decoration: none;
+  color: black;
 }
 
+#item-2 {
+  justify-self: end;
+  font-size: 30px;
+  text-decoration: none;
+  color: transparent;
+}
 
 /* Header */
 
@@ -63,7 +69,7 @@ main .catalogo {
   width: 90%;
   border-radius: 10px;
   border: 1px solid black;
-  transition: transform 1s;  
+  transition: transform 1s;
 }
 
 .catalogo img:hover {
@@ -160,7 +166,9 @@ textarea {
   height: 33px;
 }
 
-form .form-nome, .form-email, .form-mensagem {
+form .form-nome,
+.form-email,
+.form-mensagem {
   padding: 0 6px;
   padding-bottom: 8px;
 }
@@ -182,13 +190,13 @@ button:hover {
 }
 
 @keyframes button {
-  0%  {
+  0% {
     background-color: black;
     left: 0px;
   }
 
   50% {
-    background-color:white;
+    background-color: white;
     color: black;
     left: 19px;
     transition: all 2s;
