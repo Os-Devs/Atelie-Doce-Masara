@@ -68,12 +68,10 @@ main .catalogo {
   width: 70%;
   border-radius: 10px;
   border: 1px solid black;
-  transition: transform 1s;
+  max-width: 768px;
+  max-height: 768px;
 }
 
-.imagem-principal img:hover {
-  transform: scale(1.07);
-}
 .catalogo h3 {
   margin-top: 15px;
 }
