@@ -12,6 +12,8 @@ Funcionalidades do site:
 
  – Barra de Navegação Lateral com sumário para acesso rápido. <br>
  – Secção de Catálogo para exposição das categorias de Bolos e Doces. <br>
+    – Dentro do Catálogo há um Slide que possibilita a visualização <br>
+      dos produtos daquela categoria e redirecionamento para outras categorias. <br>
  – Secção "Sobre mim" para evidenciar a história de Samara <br>
  – Secção de Contato com formulários. <br>
  – Secção de Social com o acesso para as redes sociais de Samara. <br>
