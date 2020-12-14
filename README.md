@@ -10,7 +10,7 @@ Bem vindo ao site do Ateliê Doce Masara <br>
 
 Funcionalidades do site:
 
- – Barra de Navegação Lateral com sumário para acesso rápido. <br>
+ – Barra de Navegação para navegação rápida rápido. <br>
  – Secção de Catálogo para exposição das categorias de Bolos e Doces. <br>
     – Dentro do Catálogo há um Slide que possibilita a visualização <br>
       dos produtos daquela categoria e redirecionamento para outras categorias. <br>
